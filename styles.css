@@ -1,0 +1,63 @@
+html,
+body {
+  height: 300vh;
+  width: 100vw;
+}
+
+.parent-container {
+  width: 70vw;
+  height: 70vh;
+
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background-color: tomato;
+}
+
+.child-container {
+  height: 50px;
+  width: 50px;
+}
+
+#fixed {
+  position: fixed;
+  background-color: blue;
+  z-index: 100;
+  /* left: 0px;
+  top: 0px; */
+}
+
+#absolute {
+  position: absolute;
+  background-color: peru;
+  z-index: 101;
+  /* left: 50%;
+  top: 100px; */
+}
+
+#sticky {
+  position: sticky;
+  background-color: rgb(27, 110, 110);
+  /* left: 100px;
+  top: 0px; */
+}
+
+.flex-parent {
+  margin-top: 300px;
+  height: 500px;
+  width: 500px;
+  background-color: plum;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-child {
+  background-color: brown;
+  height: 100px;
+  width: 100px;
+  color: white;
+}
